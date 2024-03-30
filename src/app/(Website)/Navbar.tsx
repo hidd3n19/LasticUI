@@ -40,6 +40,7 @@ const Navbar: FC<NavbarProps> = ({ navigation }) => {
                     <div className="hidden md:block">
                       <div className="ml-10 flex items-baseline space-x-4">
                         {navigation.map((item, idx) => (
+                          
                           <Link
                             key={idx}
                             href={item.href}
